@@ -1,0 +1,219 @@
+[
+  {
+    "source": "^(?:I |)(?:click|tap) on the \"(.*)\" (?:button|element|control)$",
+    "steps": [
+      {
+        "name": "I click on the \"Portfolios\" element",
+        "aggregatedDurations": {
+          "average": 0.216635278,
+          "median": 0.219209147
+        },
+        "durations": [
+          {
+            "duration": 0.232792092,
+            "location": "Portfolios.feature:7"
+          },
+          {
+            "duration": 0.218838373,
+            "location": "Portfolios.feature:7"
+          },
+          {
+            "duration": 0.219579921,
+            "location": "Portfolios.feature:7"
+          },
+          {
+            "duration": 0.195330726,
+            "location": "Portfolios.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I click on the \"Portfolios Overview\" element",
+        "aggregatedDurations": {
+          "average": 0.214861837,
+          "median": 0.214861837
+        },
+        "durations": [
+          {
+            "duration": 0.214861837,
+            "location": "Portfolios.feature:50"
+          }
+        ]
+      },
+      {
+        "name": "I click on the \"Agreements\" element",
+        "aggregatedDurations": {
+          "average": 0.22281747,
+          "median": 0.22281747
+        },
+        "durations": [
+          {
+            "duration": 0.22281747,
+            "location": "Portfolios.feature:57"
+          }
+        ]
+      },
+      {
+        "name": "I click on the \"Tasks\" element",
+        "aggregatedDurations": {
+          "average": 0.228162328,
+          "median": 0.228162328
+        },
+        "durations": [
+          {
+            "duration": 0.228162328,
+            "location": "Tasks.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I should see |)the \"(.*)\" (?:list|table) is (|not )empty$",
+    "steps": [
+      {
+        "name": "I should see the \"Portfolios Overview List\" table is not empty",
+        "aggregatedDurations": {
+          "average": 0.018545083,
+          "median": 0.018545083
+        },
+        "durations": [
+          {
+            "duration": 0.018545083,
+            "location": "Portfolios.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see the \"(.*)\" (?:page|screen|bar)$",
+    "steps": [
+      {
+        "name": "I should see the \"Portfolios List\" page",
+        "aggregatedDurations": {
+          "average": 1.131301232,
+          "median": 1.131301232
+        },
+        "durations": [
+          {
+            "duration": 1.131301232,
+            "location": "Portfolios.feature:51"
+          }
+        ]
+      },
+      {
+        "name": "I should see the \"Tasks Bar\" page",
+        "aggregatedDurations": {
+          "average": 2.610627081,
+          "median": 2.610627081
+        },
+        "durations": [
+          {
+            "duration": 2.610627081,
+            "location": "Tasks.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I hover over \"(.*)\" (?:button|element|control)$",
+    "steps": [
+      {
+        "name": "I hover over \"Data Identyfier\" element",
+        "aggregatedDurations": {
+          "average": 0.09773619,
+          "median": 0.09773619
+        },
+        "durations": [
+          {
+            "duration": 0.09773619,
+            "location": "Portfolios.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am on the \"(.*)\" (?:page|screen)$",
+    "steps": [
+      {
+        "name": "I am on the \"Navigation Bar\" page",
+        "aggregatedDurations": {
+          "average": 0.163107808,
+          "median": 0.112797963
+        },
+        "durations": [
+          {
+            "duration": 0.379981551,
+            "location": "Portfolios.feature:6"
+          },
+          {
+            "duration": 0.122689385,
+            "location": "Portfolios.feature:6"
+          },
+          {
+            "duration": 0.103646381,
+            "location": "Portfolios.feature:6"
+          },
+          {
+            "duration": 0.112797963,
+            "location": "Portfolios.feature:6"
+          },
+          {
+            "duration": 0.096423762,
+            "location": "Tasks.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I am on the \"Agreements Overview\" page",
+        "aggregatedDurations": {
+          "average": 0.85558345,
+          "median": 0.85558345
+        },
+        "durations": [
+          {
+            "duration": 1.112705803,
+            "location": "Portfolios.feature:10"
+          },
+          {
+            "duration": 0.598461098,
+            "location": "Portfolios.feature:17"
+          }
+        ]
+      },
+      {
+        "name": "I am on the \"Portfolios Bar\" page",
+        "aggregatedDurations": {
+          "average": 0.829806361,
+          "median": 0.829806361
+        },
+        "durations": [
+          {
+            "duration": 1.079616495,
+            "location": "Portfolios.feature:49"
+          },
+          {
+            "duration": 0.579996228,
+            "location": "Portfolios.feature:56"
+          }
+        ]
+      },
+      {
+        "name": "I am on the \"Agreements List\" page",
+        "aggregatedDurations": {
+          "average": 0.064311522,
+          "median": 0.064311522
+        },
+        "durations": [
+          {
+            "duration": 0.064311522,
+            "location": "Portfolios.feature:58"
+          }
+        ]
+      }
+    ]
+  }
+]

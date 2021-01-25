@@ -1,0 +1,1292 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8558638557,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d64.0.3282.140)\n  (Driver info: chromedriver\u003d2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027DESKTOP-CPRP8AS\u0027, ip: \u0027172.30.238.49\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.30.477700 (0057494ad87321..., userDataDir: C:\\Users\\piotr\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: 466be263c37fbc8e811374f42ed827cf\n*** Element info: {Using\u003did, value\u003dusername}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:416)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat com.framework.ui.controls.Control.element(Control.java:75)\r\n\tat com.framework.ui.controls.Edit.setText(Edit.java:22)\r\n\tat com.steps.Hooks.beforeScenario(Hooks.java:59)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "View Navigation Bar",
+        "description": "",
+        "id": "navigation-bar;view-navigation-bar",
+        "after": [
+          {
+            "result": {
+              "duration": 1060009438,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "the raptor application has been started",
+            "match": {
+              "location": "GenericSteps.startRaptorApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I should see the \"Navigation Bar\" bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Navigation Bar",
+                  "offset": 18
+                }
+              ],
+              "location": "GenericVerificationSteps.verifyCurrentPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the following labels are shown:",
+            "match": {
+              "location": "GenericVerificationSteps.verifyMultipleLabelsAvailability(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Wyszukiwarka"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Administracja"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Portfele"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Zadania"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Księgowość"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "External connector"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2311443893,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d64.0.3282.140)\n  (Driver info: chromedriver\u003d2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027DESKTOP-CPRP8AS\u0027, ip: \u0027172.30.238.49\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.30.477700 (0057494ad87321..., userDataDir: C:\\Users\\piotr\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: c39f6fdaa5e3b7e9cb1b2381d2f2f71d\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:554)\r\n\tat com.paulhammant.ngwebdriver.NgWebDriver.waitForAngularRequestsToFinish(NgWebDriver.java:68)\r\n\tat com.steps.Hooks.beforeScenario(Hooks.java:48)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "View Accountancy Bar",
+        "description": "",
+        "id": "navigation-bar;view-accountancy-bar",
+        "after": [
+          {
+            "result": {
+              "duration": 4722964243,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I am on the \"Navigation Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Navigation Bar",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I click on the \"Accountancy\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accountancy",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I should see the \"Accountancy Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accountancy Bar",
+                  "offset": 18
+                }
+              ],
+              "location": "GenericVerificationSteps.verifyCurrentPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigation Bar",
+    "description": "",
+    "id": "navigation-bar",
+    "keyword": "Feature",
+    "uri": "NavigationBar.feature"
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 379981551,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the \"Navigation Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Navigation Bar",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232792092,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the \"Portfolios\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolios",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13038341153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Viewing adding new agreements form",
+        "description": "",
+        "id": "portfolios-functionality;viewing-adding-new-agreements-form",
+        "after": [
+          {
+            "result": {
+              "duration": 1448654462,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1112705803,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on the \"Agreements Overview\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agreements Overview",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188063307,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1300, 149)\n  (Session info: chrome\u003d64.0.3282.140)\n  (Driver info: chromedriver\u003d2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027DESKTOP-CPRP8AS\u0027, ip: \u0027172.30.238.49\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.30.477700 (0057494ad87321..., userDataDir: C:\\Users\\piotr\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: c8cb157439b1d0a46b51a20bdeafa242\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat com.framework.ui.controls.Control.click(Control.java:161)\r\n\tat com.steps.GenericSteps.clickOnTheButton(GenericSteps.java:86)\r\n\tat ✽.When I click on the \"Add Agreement Button\" element(Portfolios.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I click on the \"Add Agreement Button\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add Agreement Button",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I should see the \"Agreement Form\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agreement Form",
+                  "offset": 18
+                }
+              ],
+              "location": "GenericVerificationSteps.verifyCurrentPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should see the \"Adding Agreement Form\" field is available",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adding Agreement Form",
+                  "offset": 18
+                }
+              ],
+              "location": "GenericVerificationSteps.verifyElementExists(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 122689385,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the \"Navigation Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Navigation Bar",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 218838373,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the \"Portfolios\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolios",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13148001406,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Setting new agreements form",
+        "description": "",
+        "id": "portfolios-functionality;setting-new-agreements-form",
+        "after": [
+          {
+            "result": {
+              "duration": 1402794157,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 598461098,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on the \"Agreements Overview\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agreements Overview",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 209397086,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1300, 149)\n  (Session info: chrome\u003d64.0.3282.140)\n  (Driver info: chromedriver\u003d2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027DESKTOP-CPRP8AS\u0027, ip: \u0027172.30.238.49\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.30.477700 (0057494ad87321..., userDataDir: C:\\Users\\piotr\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: a8a509142958df494ec998a03aeaea3b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat com.framework.ui.controls.Control.click(Control.java:161)\r\n\tat com.steps.GenericSteps.clickOnTheButton(GenericSteps.java:86)\r\n\tat ✽.And I click on the \"Add Agreement Button\" element(Portfolios.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "I click on the \"Add Agreement Button\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add Agreement Button",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I am on the \"Agreement Form\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agreement Form",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I populate current page with the following enums:",
+            "match": {
+              "location": "GenericSteps.populatePageWithEnum(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Value"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Agreement Form ID",
+                  "TODAY"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "New Agreement Form Name",
+                  "TODAY"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I populate current page with the following dates:",
+            "match": {
+              "location": "GenericSteps.populatePageWithDate(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Value"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "New Agreement Form Signature Date",
+                  "TODAY"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "New Agreement Form Copied Documents Transfer Due Date",
+                  "TOMORROW"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "New Agreement Form Return Request Due Date",
+                  "TOMORROW"
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "New Agreement Form Cut Off Date",
+                  "TOMORROW"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "New Agreement Form Contract Attachments Due Date",
+                  "TOMORROW"
+                ],
+                "line": 30
+              },
+              {
+                "cells": [
+                  "New Agreement Form Further Cessions Without Assignors Permission From Date",
+                  "TODAY"
+                ],
+                "line": 31
+              },
+              {
+                "cells": [
+                  "New Agreement Form Payment Date",
+                  "TOMORROW"
+                ],
+                "line": 32
+              },
+              {
+                "cells": [
+                  "New Agreement Form Further Original Documents Transfer Due Date",
+                  "TOMORROW"
+                ],
+                "line": 33
+              },
+              {
+                "cells": [
+                  "New Agreement Form Payment Transferring To Old Accounts Due Date",
+                  "TOMORROW"
+                ],
+                "line": 34
+              },
+              {
+                "cells": [
+                  "New Agreement Form Source File Delivery Date",
+                  "TOMORROW"
+                ],
+                "line": 35
+              },
+              {
+                "cells": [
+                  "New Agreement Form Cession Mailing Due Date",
+                  "TOMORROW"
+                ],
+                "line": 36
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I populate current page with the following auto complete:",
+            "match": {
+              "location": "GenericSteps.populatePageWithAutoComplete(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Value"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "New Agreement Cedent",
+                  "Idea Bank S.A."
+                ],
+                "line": 39
+              },
+              {
+                "cells": [
+                  "New Agreement Cesjonariusz",
+                  "easyDEBT"
+                ],
+                "line": 40
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I populate current page with the following select list:",
+            "match": {
+              "location": "GenericSteps.populatePageWithSelectList(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Value"
+                ],
+                "line": 42
+              },
+              {
+                "cells": [
+                  "New Agreement Form Type",
+                  "Umowa przelewu wierzytelności"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "New Agreement Form Rights Transmission",
+                  "Po podpisaniu umowy"
+                ],
+                "line": 44
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@agreements"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 103646381,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the \"Navigation Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Navigation Bar",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219579921,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the \"Portfolios\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolios",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 45,
+            "value": "#  | New Agreement Collection Agency        | Getback                       |"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 13322644329,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Viewing existing portfolios",
+        "description": "",
+        "id": "portfolios-functionality;viewing-existing-portfolios",
+        "after": [
+          {
+            "result": {
+              "duration": 966378211,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1079616495,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I am on the \"Portfolios Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolios Bar",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 214861837,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on the \"Portfolios Overview\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolios Overview",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131301232,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should see the \"Portfolios List\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolios List",
+                  "offset": 18
+                }
+              ],
+              "location": "GenericVerificationSteps.verifyCurrentPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18545083,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I should see the \"Portfolios Overview List\" table is not empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolios Overview List",
+                  "offset": 18
+                },
+                {
+                  "val": "not ",
+                  "offset": 53
+                }
+              ],
+              "location": "GenericVerificationSteps.verifyListEmptyState(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 112797963,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the \"Navigation Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Navigation Bar",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 195330726,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the \"Portfolios\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolios",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13014629132,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Adding new portfolio",
+        "description": "",
+        "id": "portfolios-functionality;adding-new-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 1337673675,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 579996228,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I am on the \"Portfolios Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolios Bar",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 222817470,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click on the \"Agreements\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agreements",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64311522,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I am on the \"Agreements List\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agreements List",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97736190,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I hover over \"Data Identyfier\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Data Identyfier",
+                  "offset": 14
+                }
+              ],
+              "location": "GenericSteps.iHoverOverElement(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200375638,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1273, 234)\n  (Session info: chrome\u003d64.0.3282.140)\n  (Driver info: chromedriver\u003d2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027DESKTOP-CPRP8AS\u0027, ip: \u0027172.30.238.49\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.30.477700 (0057494ad87321..., userDataDir: C:\\Users\\piotr\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: bc33722ea3ed4d169e7db80006abe746\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat com.framework.ui.controls.Control.click(Control.java:161)\r\n\tat com.steps.GenericSteps.clickOnTheButton(GenericSteps.java:86)\r\n\tat ✽.And I click on the \"Add Portfolio To Agreement\" element(Portfolios.feature:60)\r\n",
+              "status": "failed"
+            },
+            "line": 60,
+            "name": "I click on the \"Add Portfolio To Agreement\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add Portfolio To Agreement",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I am on the \"Add Portfolio\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add Portfolio",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "I populate current page with the following dates:",
+            "match": {
+              "location": "GenericSteps.populatePageWithDate(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Value"
+                ],
+                "line": 63
+              },
+              {
+                "cells": [
+                  "Interest Date CSI",
+                  "TODAY"
+                ],
+                "line": 64
+              },
+              {
+                "cells": [
+                  "Accounting Date CSI",
+                  "TODAY"
+                ],
+                "line": 65
+              },
+              {
+                "cells": [
+                  "Interest Date IDP",
+                  "TODAY"
+                ],
+                "line": 66
+              },
+              {
+                "cells": [
+                  "Accounting Date IDP",
+                  "TODAY"
+                ],
+                "line": 67
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "I populate current page with the following select list:",
+            "match": {
+              "location": "GenericSteps.populatePageWithSelectList(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Value"
+                ],
+                "line": 69
+              },
+              {
+                "cells": [
+                  "Portfolio Type",
+                  "Własny"
+                ],
+                "line": 70
+              },
+              {
+                "cells": [
+                  "Fund Posting Mark",
+                  "FW1"
+                ],
+                "line": 71
+              },
+              {
+                "cells": [
+                  "Iban Generate Strategy",
+                  "Generuj NRB dla spraw przy imporcie"
+                ],
+                "line": 72
+              },
+              {
+                "cells": [
+                  "New Portfolio Assignee Account Id",
+                  "Rachunek wpłat"
+                ],
+                "line": 73
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "I click on the \"New Portfolio Submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New Portfolio Submit",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "I should see the \"Portfolio Details\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolio Details",
+                  "offset": 18
+                }
+              ],
+              "location": "GenericVerificationSteps.verifyCurrentPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 54,
+            "name": "@addingNewPortfolio"
+          }
+        ]
+      }
+    ],
+    "name": "Portfolios functionality",
+    "description": "",
+    "id": "portfolios-functionality",
+    "keyword": "Feature",
+    "uri": "Portfolios.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@portfolios"
+      },
+      {
+        "line": 1,
+        "name": "@nightly"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13348661204,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Viewing Tasks menu",
+        "description": "",
+        "id": "tasks-functionality;viewing-tasks-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 827275799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96423762,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the \"Navigation Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Navigation Bar",
+                  "offset": 13
+                }
+              ],
+              "location": "GenericSteps.navigateToPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 228162328,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the \"Tasks\" element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tasks",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.clickOnTheButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2610627081,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the \"Tasks Bar\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tasks Bar",
+                  "offset": 18
+                }
+              ],
+              "location": "GenericVerificationSteps.verifyCurrentPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@RAPTOR-4219"
+          }
+        ]
+      }
+    ],
+    "name": "Tasks functionality",
+    "description": "",
+    "id": "tasks-functionality",
+    "keyword": "Feature",
+    "uri": "Tasks.feature"
+  }
+]
